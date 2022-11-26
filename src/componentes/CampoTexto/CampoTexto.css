@@ -13,8 +13,14 @@
     box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.46);
     width: 100%;
     border: none;
+    outline: none;
     font-size: 24px;
     padding: 24px;
     box-sizing: border-box;
     border-radius: 15px;
+}
+
+.campo-texto input:focus{
+    transition: 0.3s;
+    transform: scale(1.04);
 }
